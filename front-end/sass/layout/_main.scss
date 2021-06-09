@@ -1,58 +1,52 @@
-@media screen and (max-width: 429px) {
-div.gallery {
-    margin: 5%;
-    border: 1px solid rgb(8, 8, 8);
-    float: left;
-    width: 90%;
-    align-items: center;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid rgb(0, 0, 0);
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-    
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+/*css partie index*/
+main{
+ margin: 0;
+ padding: 0;
+ background-color: #c1c1c1;
 }
 
-@media screen and (min-width: 1026px) and (max-width: 2560px) {
-    main{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        
-    }
-    div.gallery {
-        
-        margin: 5%;
-        
-        border: 1px solid rgb(8, 8, 8);
-        
-        width: 30%;
-        align-items: center;
-        
-      }
-      
-      div.gallery:hover {
-        border: 1px solid rgb(0, 0, 0);
-      }
-      
-      div.gallery img {
-        width: 100%;
-        height: auto;
-        
-      }
-      
-      div.desc {
-        padding: 15px;
-        text-align: center;
-      }
+.container {
+  display: flex; 
+ flex-wrap: wrap;
+ justify-content: center;
 }
+
+.camera {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90vw;
+    height: 70vw;
+    margin: 2vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 5vw;
+}
+
+img {
+  border-radius: 5vw 5vw 0vw 0vw;
+  width: 90vw;
+  height: 50vw;
+}
+
+.text-info{
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  align-items: baseline;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+  
+  .camera:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+  
+
+  /*_______________________________________*/
+  

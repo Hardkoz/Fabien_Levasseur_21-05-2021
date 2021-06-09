@@ -1,77 +1,98 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-        <meta 
-	name="description" 
-	content="Site de e-commerce de caméras vintage ">
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a1646c5b7b.js" crossorigin="anonymous"></script>
-    </head>
-    <title>Orinoco</title>
-    <body>
-        <header>
-            <div class="bar">
-            <ul>
-                <li><a class="active" href="#home"><h1>Orinoco</h1></a></li>
-                <li class="pos"><a href="#news">Panier</a></li>
-                <li class="pos"><a href="#contact">Connexion</a></li>
-                <li class="pos"><a href="#Panier">Inscription</a></li>
-              </ul>
-            
-        </div>
-        </header>
-        <nav>
 
-        </nav>
-        <main>
-            <div class="gallery">
-              
-                  <img src="front-end\image\vcam_1.jpg"  >
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Site de e-commerce de caméras vintage ">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer ></script>
+  <script src="https://kit.fontawesome.com/a1646c5b7b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<title>Orinoco</title>
 
-              <div class="gallery">
-               
-                  <img src="front-end\image\vcam_2.jpg"  >
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
+<body>
+  <header>
+    <div class="en-tete">
+      
+       <div><a class="active" href="index.html"><img class="logo" src="img/logo_orinico.png"></a></div> 
+      <div> <a class="panier" href="panier.html">Panier</a></div>
 
-              <div class="gallery">
-                
-                  <img src="front-end/image/vcam_3.jpg"  >
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
+      
 
-              <div class="gallery">
-              
-                  <img src="front-end/image/vcam_4.jpg"  >
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
+    </div>
+  </header>
+  <nav>
 
-              <div class="gallery">
-                
-                  <img src="front-end/image/vcam_5.jpg"  >
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-        </main>
-        <footer>
-            <div class="foot">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram-square"></i>
-            <i class="fab fa-twitter-square"></i><br>
-            <p>Mention légale - Contact</p>
-            
-        </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="camera">
+      <a href="fiche produit.html"><img src="img/vcam_1.jpg" id="picture1" alt="" class="cards" />
+        <div class="text-info">
+          <h4>Zurss 50S</h4>
+          <p id="price1">49900€</p>
+          </div>
+        </a>
+      </div>
+   
 
-        </footer>
-    </body>
+      <div class="camera">
+
+        <a href="fiche produit.html"><img src="img/vcam_2.jpg" id="picture1" alt="" class="cards" />
+          <div class="text-info">
+            <h4>Hirsch 400DTS</h4>
+            <p id="price1">309900€</p>
+            </div>
+        </a>
+      </div>
+    
+      <div class="camera">
+        <a href="fiche produit.html"><img src="img/vcam_3.jpg" id="picture2" alt="" class="cards" />
+          <div class="text-info">
+            <h4>Franck JS 105</h4>
+            <p id="price2">209900€</p>
+            </div>
+        </a>
+      </div>
+   
+      <div class="camera">
+        <a href="fiche produit.html"><img src="img/vcam_4.jpg" id="picture3" alt="" class="cards" />
+          <div class="text-info">
+            <h4>Kuros TTS</h4>
+            <p id="price3">159900€</p>
+            </div>
+        </a>
+      </div>
+   
+      <div class="camera">
+        <a href="fiche produit.html"><img src="img/vcam_5.jpg" id="picture4" alt="" class="cards" />
+          <div class="text-info">
+            <h4>Katatone</h4>
+            <p id="price4">5990€</p>
+            </div>
+        </a>
+      
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="foot">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram-square"></i>
+      <i class="fab fa-twitter-square"></i><br>
+    </div>
+      <div class="foot2">
+      <p>Mention légale</p>
+      <p>Contact</p>
+    </div>
+    
+
+  </footer>
+</body>
+
 </html>
