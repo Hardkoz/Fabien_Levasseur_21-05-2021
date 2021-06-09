@@ -1,4 +1,5 @@
 /*css partie index*/
+@media screen and (max-width: 429px){
 main{
  margin: 0;
  padding: 0;
@@ -44,9 +45,108 @@ a{
   .camera:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
+}
+  @media screen and (min-width: 430px) and (max-width: 1025px){
+
+    main{
+      margin: 0;
+      padding: 0;
+      background-color: #c1c1c1;
+     }
+     
+     .container {
+       display: flex; 
+      flex-wrap: wrap;
+      justify-content: center;
+     }
+     
+     .camera {
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+         transition: 0.3s;
+         width: 45vw;
+         height: 35vw;
+         margin: 2vw;
+         background-color: rgb(255, 255, 255);
+         border-radius: 5px;
+         text-decoration: none;
+         border-radius: 5vw;
+     }
+     
+     img {
+       border-radius: 5vw 5vw 0vw 0vw;
+       width: 45vw;
+       height: 25vw;
+     }
+     
+     .text-info{
+       display: flex;
+       justify-content: space-between;
+       margin: 2%;
+       align-items: baseline;
+     }
+     
+     a{
+       text-decoration: none;
+       color: black;
+     }
+       
+       .camera:hover {
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+       }
+
+
+
+  }  
 
   
+  @media screen and (min-width: 1026px) and (max-width: 2560px){
 
-  /*_______________________________________*/
+    main{
+      margin: 0;
+      padding: 0;
+      background-color: #c1c1c1;
+     }
+     
+     .container {
+       display: flex; 
+      flex-wrap: wrap;
+      justify-content: center;
+     }
+     
+     .camera {
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+         transition: 0.3s;
+         width: 45vw;
+         height: 35vw;
+         margin: 2vw;
+         background-color: rgb(255, 255, 255);
+         border-radius: 5px;
+         text-decoration: none;
+         border-radius: 5vw;
+     }
+     
+     img {
+       border-radius: 5vw 5vw 0vw 0vw;
+       width: 45vw;
+       height: 25vw;
+     }
+     
+     .text-info{
+       display: flex;
+       justify-content: space-between;
+       margin: 2%;
+       align-items: baseline;
+     }
+     
+     a{
+       text-decoration: none;
+       color: black;
+     }
+       
+       .camera:hover {
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+       }
+
+
+  }
   
