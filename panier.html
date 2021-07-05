@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="Site de e-commerce de caméras vintage ">
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer ></script>
+ 
   <script src="https://kit.fontawesome.com/a1646c5b7b.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,18 +30,21 @@
   </nav>
   <main>
   <h1>Votre Panier</h1>
-  <div class="panier-achat">
+  <div id="achat-panier">
     
-      <p class="panier-aa">Nom</p>
-      <p class="panier-aa">Prix</p>
-      <p class="panier-aa">Quantité</p>
-      <p class="panier-aa">Prix total</p>
-      <p class="panier-aa">Supprimer</p>
-  
-  
-      <p class="">Total de votre commande</p>
-      <button class="button" type="button">Vider le panier <i class="fas fa-trash-alt"></i> </button>
+
+
+
+
   </div>
+  
+      
+  
+  
+     
+   
+ 
+  <p class="total">Total de votre commande</p>
 
   <div class="panier4">
       <h2>Vos coordonnées</h2>
@@ -65,8 +68,8 @@
         <input type="text" id="fname" name="fname" value=""><br>
         <label for="fname">Adresse e-mail</label><br>
         <input type="text" id="fname" name="fname" value=""><br>
-        <label for="fname">Confirmier l'adresse e-mail</label>
-        <input type="text" id="fname" name="fname" value="">
+        <label for="fname">Confirmier l'adresse e-mail</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
      
       <input type="button" class="button" value="Passer commande">
         
@@ -91,6 +94,10 @@
         
     
       </footer>
+    
+      <script src="panier.js"></script>
+      
+      
 </body>
 
 </html>

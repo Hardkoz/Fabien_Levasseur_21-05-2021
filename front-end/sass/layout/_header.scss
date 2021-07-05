@@ -18,18 +18,21 @@
 @media screen and (min-width: 430px) and (max-width: 1025px){
     .en-tete{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        margin: 0% 5%;
     }
     .logo{
         width: 30vw;
         height: 15vw;
+        
     }
     
     .panier{
         text-decoration: none;
         color: black;
         font-size: larger;
+        
     } 
 }
 
@@ -37,17 +40,21 @@
     .en-tete{
         display: flex;
         justify-content: space-around;
+        margin: 2%;
+        
         align-items: center;
     }
     .logo{
         width: 15vw;
         height: 7.5vw;
+        margin: 5%;
     }
     
     .panier{
         text-decoration: none;
         color: black;
         font-size: larger;
+        margin: 5%;
     } 
 }
 
